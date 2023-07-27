@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <style>
+    body {
+      background-color: black;
+    }
+    #text {
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      font-size: 48px;
+      opacity: 0;
+      color: white;
+      transition: color 0.3s ease;
+    }
+    #box1 {
+      width: 150px;
+      height: 150px;
+      background-color: blueviolet;
+      position: absolute;
+      border-radius: 50%;
+      transition: background-color 0.3s ease;
+    }
+    #box2 {
+      width: 150px;
+      height: 150px;
+      background-color: blueviolet;
+      position: absolute;
+	    left: 93%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+    }
+    #box3 {
+      width: 150px;
+      height: 150px;
+      background-color: blueviolet;
+      position: absolute;
+	    left: 93%;
+	    top: 90%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+    }
+    #box4 {
+      width: 150px;
+      height: 150px;
+      background-color: blueviolet;
+      position: absolute;
+	    top: 90%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+    }
+    #box5 {
+      width: 150px;
+      height: 150px;
+      background-color: blueviolet;
+      position: absolute;
+      left: 10%;
+      top: 70%;
+      border-radius: 50%;
+    }
+    #box6 {
+      width: 150px;
+      height: 150px;
+      background-color: blueviolet;
+      position: absolute;
+      top: 20%;
+	    left: 10%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+    }
+    #box7 {
+      width: 150px;
+      height: 150px;
+      background-color: blueviolet;
+      position: absolute;
+	    left: 80%;
+	    top: 20%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+    }
+    #box8{
+      width: 150px;
+      height: 150px;
+      background-color: blueviolet;
+      position: absolute;
+	    top: 70%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+    }
+    #toggleButton {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: white;
+      color: black;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="text">こんにちは</div>
+  <div id="box1"></div>
+  <div id="box2"></div>
+  <div id="box3"></div>
+  <div id="box4"></div>
+  <div id="box5"></div>
+  <div id="box6"></div>
+  <div id="box7"></div>
+  <div id="box8"></div>
+  <button id="toggleButton">切り替え</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
